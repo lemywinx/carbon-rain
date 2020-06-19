@@ -33,3 +33,6 @@ carbon_rain
 *.exe
 *.out
 *.app
+
+# Vim swp files
+*.swp
