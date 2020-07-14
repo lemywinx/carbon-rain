@@ -36,3 +36,6 @@ carbon_rain
 
 # Vim swp files
 *.swp
+
+# CCLS
+.ccls-cache

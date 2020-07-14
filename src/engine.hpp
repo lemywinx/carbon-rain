@@ -8,6 +8,14 @@ class Map;
 
 class Engine {
     public :
+        enum GameStatus {
+            STARTUP,
+            IDLE,
+            NEW_TURN,
+            VICTORY,
+            DEFEAT
+        } gameStatus;
+
         int fovRadius;
         TCODList<Actor *> actors;
         Actor *player;
@@ -17,8 +25,6 @@ class Engine {
         ~Engine();
         void update();
         void render();
-    private :
-        bool computeFov;
 };
 
 extern Engine engine;
