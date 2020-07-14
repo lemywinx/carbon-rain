@@ -1,7 +1,7 @@
 #ifndef ACTOR_H
 #define ACTOR_H
 #include <libtcod/libtcod.hpp>
-
+//TEST
 class Actor {
     public :
         int x, y; //position on map
